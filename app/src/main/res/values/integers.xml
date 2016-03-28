@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="indicator_cirlce_diameter">8</integer>
+</resources>
