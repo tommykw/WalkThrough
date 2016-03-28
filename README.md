@@ -1,2 +1,2 @@
-# WalkThroughAnimation
-Walk through animation for Android
+# WalkThrough
+Walk through for Android
