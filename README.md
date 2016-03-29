@@ -1,2 +1,14 @@
+[![Circle CI](https://circleci.com/gh/tommykw/WalkThrough.svg?style=shield)](https://circleci.com/gh/tommykw/WalkThrough)
+[![MIT License](https://img.shields.io/github/license/tommykw/WalkThrough.svg)](https://github.com/tommykw/WalkThrough/blob/master/LICENSE)
+
 # WalkThrough
-Walk through for Android
+WalkThrough is a walk through sample application in Kotlin For Android.
+
+# Features
+- 
+
+# Libraries
+- Kotlin
+- Kotlin Android Extensions
+- Kotter Knife
+- RxKotlin
