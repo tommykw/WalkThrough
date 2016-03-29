@@ -28,9 +28,10 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT'
 }
 buildscript {
-    ext.kotlin_version = '1.0.1-1'
+    ext.kotlin_version = '1.0.1-2'
     repositories {
         mavenCentral()
     }
@@ -40,4 +41,7 @@ buildscript {
 }
 repositories {
     mavenCentral()
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
 }
