@@ -22,7 +22,9 @@
             android:id="@+id/top_button"
             android:layout_width="@dimen/launch_top_btn_width"
             android:layout_height="wrap_content"
-            />
-
+            android:layout_marginTop="@dimen/element_spacing_large"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/black"
+            android:text="@string/top_button_text" />
     </LinearLayout>
 </RelativeLayout>

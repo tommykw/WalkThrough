@@ -6,4 +6,9 @@
 
     <color name="viewpager_indicator_default">#BDBDBD</color>
     <color name="viewpager_indicator_selector">#00897B</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
 </resources>
