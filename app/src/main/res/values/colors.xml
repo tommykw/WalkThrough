@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/blue_light</color>
+    <color name="colorPrimaryDark">@color/blue_dark</color>
+    <color name="colorAccent">@color/pink</color>
 
-    <color name="viewpager_indicator_default">#BDBDBD</color>
-    <color name="viewpager_indicator_selector">#00897B</color>
+    <color name="viewpager_indicator_default">@color/gray_dark</color>
+    <color name="viewpager_indicator_selector">@color/green</color>
     
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="transparent">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
     <color name="red">#FF0000</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#BDBDBD</color>
+    <color name="blue_light">#303F9F</color>
+    <color name="blue_dark">#303F9F</color>
+    <color name="pink">#FF4081</color>
+    <color name="green">#00897B</color>
 </resources>

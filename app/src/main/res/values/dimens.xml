@@ -25,4 +25,8 @@
     <dimen name="text_large">16sp</dimen>
     <dimen name="text_normal">14sp</dimen>
     <dimen name="text_small">12sp</dimen>
+
+    <dimen name="border_large">4dp</dimen>
+    <dimen name="border_normal">2dp</dimen>
+    <dimen name="border_small">1dp</dimen>
 </resources>
