@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WalkThrough</string>
+    <string name="label_activity_main">main</string>
     <string name="top_button_text">top</string>
 </resources>
