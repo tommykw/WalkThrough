@@ -14,7 +14,7 @@ class DisplayUtil {
         }
 
         fun dipToPixcelFloat(context: Context, dip: Float) =
-                displayMetricsFrom(context).density  * dip
+                displayMetricsFrom(context).density * dip
 
         fun dipToPixcelInt(context: Context, dip: Float) =
                 (displayMetricsFrom(context).density * dip).toInt()
