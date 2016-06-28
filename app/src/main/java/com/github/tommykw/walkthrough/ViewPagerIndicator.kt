@@ -60,6 +60,7 @@ class ViewPagerIndicator : View {
         viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageSelected(position: Int) {
                 wholeViewCount = viewPager.adapter.let { it.count }
+                setPosition(position)
             }
 
             override fun onPageScrollStateChanged(state: Int) {}

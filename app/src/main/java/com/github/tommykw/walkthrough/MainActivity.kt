@@ -7,5 +7,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+//        val adapter = ViewPagerAdapter(this)
+//        wlkthroughViewpager.adapter = adapter
+//        walkthroughIndicator.setIndicatorCount(adapter.count)
+//        walkthroughIndicator.setIndicatorColor(R.color.white, R.color.black)
+//        walkthroughIndicator.setViewPager(
+//                binding.contentLogin.loginWalkthroughViewpager
+//        )
     }
 }
