@@ -11,7 +11,14 @@ import android.view.View
 /**
  * Created by tommy on 2016/03/28.
  */
-class ViewPagerIndicator : View {
+class ViewPagerIndicator @JvmOverloads constructor(context: Context,
+                                                   attrs: AttributeSet? = null,
+                                                   defStyleAttr: Int = 0
+) : View(context, attrs, defStyleAttr) {
+    init {
+        prepare(context)
+    }
+
     private var radius = 0.0f
     private var distance = 0.0f
     private var wholeViewCount = 0
@@ -20,22 +27,6 @@ class ViewPagerIndicator : View {
     private var indicatorCount = 5
     private var defaultColor= ContextCompat.getColor(context, R.color.viewpager_indicator_default)
     private var selectorColor = ContextCompat.getColor(context, R.color.viewpager_indicator_selector)
-
-    constructor(context: Context) : super(context) {
-        prepare(context)
-    }
-
-    constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
-        prepare(context)
-    }
-
-    constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr) {
-        prepare(context)
-    }
-
-    constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) : super(context, attrs, defStyleAttr, defStyleRes) {
-        prepare(context)
-    }
 
     fun setIndicatorCount(count: Int) {
         indicatorCount = count

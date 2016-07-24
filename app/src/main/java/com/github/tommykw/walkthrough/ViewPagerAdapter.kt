@@ -12,7 +12,7 @@ import android.widget.RelativeLayout
  * Created by tommy on 2016/03/29.
  */
 class ViewPagerAdapter : PagerAdapter {
-    private val walkThroughImageIds = listOf(
+    private val walkThroughImageIds = intArrayOf(
             R.drawable.walkthrough,
             R.drawable.walkthrough,
             R.drawable.walkthrough,
