@@ -5,7 +5,6 @@
 WalkThrough is a walk through sample application in Kotlin for Android.
 
 # Features
-- 
 
 # Libraries
 - Kotlin
